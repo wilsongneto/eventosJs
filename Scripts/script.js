@@ -7,3 +7,7 @@ console.log(document.body.childNodes[1]); // como é um Array, posso acessar o �
 console.log(document.body.childNodes[1].childNodes); // aqui pesquisa a lista (array) do indíce 1 da lista do body.
 
 console.log(document.body.childNodes[1].childNodes[1].textContent); // aqui pesquisa o índice 1 da lista do header (que é o índice 1 da lista do body). Como estou usando o textContent, ele não vai trazer a lista, mas sim o texto do índice, que será "Título".
+
+//Selecionar por TAG
+const listaItens = document.getElementsByTagName('li');
+console.log(listaItens);
